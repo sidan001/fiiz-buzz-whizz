@@ -5,7 +5,7 @@ public class Times implements Rule{
     private final int n;
     private final String result;
 
-    public Times(int n, String result) {
+    Times(int n, String result) {
         this.n = n;
         this.result = result;
     }
